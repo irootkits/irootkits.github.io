@@ -35,7 +35,7 @@
     </section>
   </main>
   <script>
-    const COUNTER_KEY = 'irootkits.github.io/accueil';
+    const COUNTER_KEY = 'irootkits.github.io/';
     fetch('https://api.countapi.xyz/hit/' + encodeURIComponent(COUNTER_KEY))
       .then(r => r.json())
       .then(data => { document.getElementById('views').textContent = data.value; });
